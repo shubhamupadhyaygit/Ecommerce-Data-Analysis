@@ -1,0 +1,41 @@
+Dataset Link: https://www.yelp.com/dataset
+
+
+The project involves connecting to a MySQL database using either mysql.connector or pymysql, where the data pertains to eCommerce orders, payments, sales, and products. The primary keys used for linking and joining tables include order_id, customer_id, and seller_id, depending on the table in question.
+
+Key Insights:
+
+1: Geographic Distribution:
+The data reveals a wide geographic spread, with a total of 4,119 unique cities represented by the customer base. Notably, the highest concentration of customers hails from two states: São Paulo, with 41,746 customers, and Rio de Janeiro, with 12,852 customers.
+
+2: Order Trends by Year:
+The number of orders placed has shown a significant upward trend over the years. The most substantial volume of orders was recorded in 2018, with 54,011 orders, followed by 45,101 orders in 2017. The fewest orders were recorded in 2016, with only 329, indicating a strong year-on-year growth in order volume.
+
+3: Top Product Categories:
+Analyzing the sales data reveals that the top five product categories by sales are:
+
+1st: Bed, Table, and Bath
+2nd: Health and Beauty
+3rd: Computer Accessories
+4th: Furniture and Decoration
+5th: Watches
+
+4: Payment Patterns:
+Remarkably, 99.99% of all orders are made through paid installments, demonstrating a strong preference for this payment method among customers.
+
+5: Monthly Order Trends in 2018:
+The year 2018 not only saw the highest overall order volume but also exhibited strong sales in the early months. January and February alone accounted for approximately 7,200 orders, marking them as peak months.
+
+6: Revenue Contributions:
+The top revenue-generating product categories include:
+
+- Bed, Table, and Bath: Contributing 11% of total revenue
+- Health and Beauty: Contributing 10% of total revenue
+- Computer Accessories: Also within the top three revenue contributors
+
+7: Correlation Analysis:
+There is a near-zero correlation (-0.1) between product prices and sales quantity, indicating no strong relationship. However, when analyzing the sum of sales in relation to order count, the correlation is a high 0.95, signifying a strong positive relationship.
+
+8: Yearly Sales Growth:
+The sales growth trajectory shows a steep increase in 2017, with a staggering growth rate of 12,112.7%. This marks 2017 as a transformative year for the business. The growth rate in 2018, while more modest at 20%, continues the upward trend, solidifying the company's expansion.
+
