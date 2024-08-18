@@ -1,4 +1,5 @@
 Dataset Link: https://www.yelp.com/dataset
+![image](https://github.com/user-attachments/assets/854bd0f0-b801-463e-87dd-adf2c72b2a6e)
 
 
 The project involves connecting to a MySQL database using either mysql.connector or pymysql, where the data pertains to eCommerce orders, payments, sales, and products. The primary keys used for linking and joining tables include order_id, customer_id, and seller_id, depending on the table in question.
